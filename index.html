@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>ランダム物理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <script type="text/javascript" async 
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
     <style type="text/css">
         svg:not(:root).svg-inline--fa {
             overflow: visible
@@ -2816,11 +2819,12 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script>
         const questions = [
-        '<p></p>ある小物体にはたらいている力<math><msub><mi>F</mi><mi>1</mi></msub></math>，<math><msub><mi>F</mi><mi>2</mi></msub></math>の向きと大きさを表したものである。<p></p>この小物体にはたらく合力の x成分 <math><msub><mi>F</mi><mi>x</mi></msub></math> と、y成分 <math><msub><mi>F</mi><mi>y</mi></msub></math> の値はいくらか。ただし、方眼の1目盛りは大きさ 1N の力に対応している。<p style="margin-bottom:3em;"></p><p></p>',
-        '<p></p><math><mfrac><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mn>3</mn></mfrac></math><p></p>',
-        '<p></p><math><msubsup><mo>∫</mo></msubsup><mi>tan</mi><mi>x</mi><mi>dx</mi><mo>=</mo><mfrac><mrow><mi>1</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mo>+</mo><mn>C</mn></math>（Cは積分定数）<p></p>',
-        '<p></p><p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p><p></p>',
-        '<p></p>$\\displaystyle \\int_{}^{}\\sqrt{x^{2}+1}\\,dx$<p></p>',
+            '<p></p>ある小物体にはたらいている力<math><msub><mi>F</mi><mi>1</mi></msub></math>，<math><msub><mi>F</mi><mi>2</mi></msub></math>の向きと大きさを表したものである。<p></p>この小物体にはたらく合力の x成分 <math><msub><mi>F</mi><mi>x</mi></msub></math> と、y成分 <math><msub><mi>F</mi><mi>y</mi></msub></math> の値はいくらか。ただし、方眼の1目盛りは大きさ 1N の力に対応している。<p style="margin-bottom:3em;"></p><p></p>',
+            '<p></p><math><mfrac><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow><mn>3</mn></mfrac></math><p></p>',
+            '<p></p><math><msubsup><mo>∫</mo></msubsup><mi>tan</mi><mi>x</mi><mi>dx</mi><mo>=</mo><mfrac><mrow><mi>1</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mo>+</mo><mn>C</mn></math>（Cは積分定数）<p></p>',
+            '<p></p><p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p><p></p>',
+            '<p></p>$\\displaystyle \\int_{}^{}\\sqrt{x^{2}+1}\\,dx$<p></p>',
+            ' \begin{align} F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}f(t)e^{i\omega t}dt \end{align}',
         ];
 
         const btn = document.getElementById("gacha-button");
