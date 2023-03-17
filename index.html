@@ -2107,9 +2107,9 @@
             }
         };
     </script>
+    <<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript" id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-svg.js">
-    </script>
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
 </head>
 
 <body class="home">
@@ -2144,7 +2144,8 @@
             '<p></p><math><msubsup><mo>∫</mo></msubsup><mi>tan</mi><mi>x</mi><mi>dx</mi><mo>=</mo><mfrac><mrow><mi>1</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mo>+</mo><mn>C</mn></math>（Cは積分定数）<p></p>',
             '<p></p><p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p><p></p>',
             '<p></p>$\\displaystyle \\int_{}^{}\\sqrt{x^{2}+1}\\,dx$<p></p>',
-            ' \begin{align} F(\omega) = \cfrac{1}{\sqrt{2\pi}}\int_{-\infty}^{+\infty}f(t)e^{i\omega t}dt \end{align}',
+            '<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo> <mi>b</mi><mi>x</mi><mo>+</mo> <mi>c</mi> <mo>=</mo> <mn>0</mn></math>',
+            '<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>x</mi> <mo>=</mo> <mrow><mfrac><mrow><mo>&#x2212;</mo><mi>b</mi><mo>&#x00B1;</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>&#x2212;</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow><mtext>.</mtext></math>',
         ];
 
         const btn = document.getElementById("gacha-button");
