@@ -2803,12 +2803,12 @@
     </main>
     <script type="text/x-mathjax-config;executed=true">
         MathJax.Hub.Config({
-    tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    processEscapes: true
-    },
-    CommonHTML: { matchFontHeight: false, undefinedFamily:"sans-serif"}
-    });
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                processEscapes: true
+            },
+            CommonHTML: { matchFontHeight: false, undefinedFamily:"sans-serif"}
+        });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" id="">
     </script>
@@ -2821,18 +2821,18 @@
         '<p></p><math><msubsup><mo>∫</mo></msubsup><mi>tan</mi><mi>x</mi><mi>dx</mi><mo>=</mo><mfrac><mrow><mi>1</mi></mrow><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mo>+</mo><mn>C</mn></math>（Cは積分定数）<p></p>',
         '<p></p><p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p><p></p>',
         '<p></p>$\\displaystyle \\int_{}^{}\\sqrt{x^{2}+1}\\,dx$<p></p>',
-    ];
+        ];
 
-    const btn = document.getElementById("gacha-button");
-    const disp = document.getElementById("gacha-display");
-    const content = document.getElementById("content-section");
+        const btn = document.getElementById("gacha-button");
+        const disp = document.getElementById("gacha-display");
+        const content = document.getElementById("content-section");
 
 
-    btn.addEventListener("click", function() {
-        $('#content-section').show();
-        const num = Math.floor(Math.random() * questions.length );
-        disp.innerHTML = questions[num];
-    });
+        btn.addEventListener("click", function() {
+            $('#content-section').show();
+            const num = Math.floor(Math.random() * questions.length );
+            disp.innerHTML = questions[num];
+        });
     </script>
     <footer>
         <div>
